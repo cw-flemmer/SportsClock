@@ -8,17 +8,8 @@ Firmware v1.3.0 code is complete.
 
 ## Completed Features
 
-- [x] First-boot setup portal (WiFiManager) to configure Wi-Fi SSID, password and device name; device advertises a temporary AP such as `SportsClock-A1B2`
-- [x] Persistent configuration via ESP32 Preferences (device name, timezone; default `SPORTS CLOCK`, `Africa/Johannesburg`)
-- [x] NTP time synchronization using the correct `Africa/Johannesburg` timezone (no manual UTC offset)
-- [x] Non-blocking boot state machine: startup → connect → sync time → greeting → clock
-- [x] Personalized ~5 second greeting ("GOOD MORNING <device name>")
-- [x] Clock screen: device name, large HH:MM, seconds, and date/day-of-week in 24-hour format
-- [x] Wi-Fi failure handling — falls back to the setup portal after a connect timeout
-- [x] Runtime Wi-Fi reconnection — clock keeps running on local time, re-syncs NTP when Wi-Fi returns
-- [x] Config button — hold low at boot to open the setup portal without clearing saved settings
-- [x] Over-the-air updates — checks a GitHub Releases manifest on boot, with a `/update` page in the setup portal (check / install / manual `.bin` upload) and mDNS at `http://sportsclock.local`
-- [x] Tagged, disable-able Serial logging (`[BOOT]`, `[WIFI]`, `[TIME]`, `[APP]`, `[OLED]`)
+- [x] Clock works. Time is synced with NTP server using `Africa/Johannesburg` timezone (no manual UTC offset)
+- [x] OTA Updates via HTTP. Checks for new firmware everytime the device is powered on.
 
 ## Not Yet Done / Future
 
