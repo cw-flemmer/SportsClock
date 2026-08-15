@@ -11,6 +11,6 @@ Firmware v1.3.0 code is complete.
 - [x] Clock works. Time is synced with NTP server using `Africa/Johannesburg` timezone (no manual UTC offset)
 - [x] OTA Updates via HTTP. Checks for new firmware everytime the device is powered on.
 
-## Not Yet Done / Future
+## Planned / Future
 
-- [ ] Sports mode / match scoreboard, match timer, team selection, themes, weather, browser firmware installer (future expansion)
+- [ ] Leaderboard API integration. Example: Show where your team is currently ranked on the global stage. Still being planned out.
