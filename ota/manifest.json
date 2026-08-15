@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
-  "notes": "Initial release:<br>- Wi-Fi setup + NTP clock on 128x64 OLED<br>- Config button (boot into portal)<br>- Pull-based OTA updates",
-  "bin_url": "https://github.com/cw-flemmer/SportsClock/releases/download/v1.0.0/firmware.bin"
+  "version": "1.1.0",
+  "notes": "v1.1.0:<br>- Clock colon now blinks every second",
+  "bin_url": "https://github.com/cw-flemmer/SportsClock/releases/download/v1.1.0/firmware.bin"
 }
