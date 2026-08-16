@@ -4,7 +4,7 @@ A Wi-Fi-enabled digital clock for sports fans, built for the South African marke
 
 ## Status
 
-Firmware v1.3.0 code is complete. Hardware integration & end-to-end verification (Phase 9) is still pending.
+Firmware v1.3.0 code is complete.
 
 ## Completed Features
 
