@@ -1,7 +1,5 @@
 # Sports Digital Clock
 
-> **Documentation:** [Device Setup](https://github.com/cw-flemmer/SportsClock/wiki/Device-Setup) · [OTA Updates](https://github.com/cw-flemmer/SportsClock/wiki/OTA-Updates) · [Troubleshooting](https://github.com/cw-flemmer/SportsClock/wiki/Troubleshooting)
-
 A Wi-Fi-enabled digital clock for sports fans, built for the South African market. It runs on an **ESP32-C3 Super Mini** with a **128x64 SSD1306 OLED**, is configured once from a phone via its setup portal, and thereafter simply shows a personalized greeting followed by the current time whenever it is powered on.
 
 ## Status
